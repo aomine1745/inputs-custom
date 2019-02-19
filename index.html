@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="holder">
+			<h2>Custom Radio</h2>
+			<form action="#!" class="customRadio">
+				<div class="row">
+					<p>Which text editor do you think is the best?</p>
+				</div>
+				<div class="row">
+					<input type="radio" name="texEditor" id="dreamweaver" checked>
+					<label for="dreamweaver">Adobe Dreanweaver</label>
+				</div>
+				<div class="row">
+					<input type="radio" name="texEditor" id="sublime">
+					<label for="sublime">Sublime Text</label>
+				</div>
+				<div class="row">
+					<input type="radio" name="texEditor" id="vscode">
+					<label for="vscode">Visual Studio Code</label>
+				</div>
+				<div class="row">
+					<input type="radio" name="texEditor" id="notepad">
+					<label for="notepad">Notepad++</label>
+				</div>
+			</form>
+		</div>
+		<div class="holder">
+			<h2>Custom Checkbox</h2>
+			<form action="#!" class="customCheckbox">
+				<div class="row">Wich programing language do you want to learn?</div>
+				<div class="row">
+					<input type="checkbox" name="languages[]" id="javascript" value="javascript">
+					<label for="javascript">JavaScript</label>
+				</div>
+				<div class="row">
+					<input type="checkbox" name="languages[]" id="php" value="php">
+					<label for="php">PHP</label>
+				</div>
+				<div class="row">
+					<input type="checkbox" name="languages[]" id="python" value="python">
+					<label for="python">Python</label>
+				</div>
+				<div class="row">
+					<input type="checkbox" name="languages[]" id="dotnet" value="dotnet">
+					<label for="dotnet">.Net</label>
+				</div>
+				<div class="row">
+					<input type="checkbox" name="languages[]" id="node" value="node">
+					<label for="node">Node JS</label>
+				</div>
+			</form>
+		</div>
+		<div class="holder">
+			<h2>Custom Select</h2>
+			<form action="#!" class="customSelect">
+				<div class="row">Please select the payment method.</div>
+				<div class="row">
+					<div class="select">
+						<select name="payment" id="payment">
+							<option value="debit">Debit / Master Card</option>
+							<option value="credit">Credit Card</option>
+							<option value="transfer">Bank Transfer</option>
+							<option value="paypal">Paypal</option>
+							<option value="skrill">Skrill</option>
+						</select>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="holder">
+			<h2>Custom Toggle Switch</h2>
+			<form action="#!" class="customToggle">
+				<div class="row">
+					<p>Do you want to proceed?</p>
+				</div>
+				<div class="row">
+					<input type="checkbox" name="valid[]" id="toggle" value="yes">
+					<label for="toggle">
+						<span class="yes">Yes</span>
+						<span class="no">No</span>
+					</label>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
